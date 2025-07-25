@@ -1,0 +1,117 @@
+:root, [data-bs-theme=light] {
+  --bs-success: #4CAF50;
+  --bs-success-rgb: 76,175,80;
+  --bs-success-text-emphasis: #1E4620;
+  --bs-success-bg-subtle: #DBEFDC;
+  --bs-success-border-subtle: #B7DFB9;
+}
+
+.btn-success {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #4CAF50;
+  --bs-btn-border-color: #4CAF50;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #67BB6A;
+  --bs-btn-hover-border-color: #5EB762;
+  --bs-btn-focus-shadow-rgb: 11,26,12;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #70BF73;
+  --bs-btn-active-border-color: #5EB762;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #4CAF50;
+  --bs-btn-disabled-border-color: #4CAF50;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #4CAF50;
+  --bs-btn-border-color: #4CAF50;
+  --bs-btn-focus-shadow-rgb: 76,175,80;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #4CAF50;
+  --bs-btn-hover-border-color: #4CAF50;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #4CAF50;
+  --bs-btn-active-border-color: #4CAF50;
+  --bs-btn-disabled-color: #4CAF50;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #4CAF50;
+}
+
+.mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}
+
+.px-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.pb-2 {
+  padding-bottom: .5rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 3rem !important;
+}
+
+@media (min-width: 992px) {
+  .mx-lg-1 {
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .mb-lg-0 {
+    margin-bottom: 0rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .px-lg-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="es-419">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Tarea 1</title>
+    <meta name="description" content="tarea de pagina de notas Pablo Espinoza">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">5to. semestre</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="index.html">Inicio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <div class="nav-item dropdown px-lg-3 py-3"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#">Semestre&nbsp;</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="semestre1.html">1er. semestre</a><a class="dropdown-item" href="semestre2.html">2do. semestre</a><a class="dropdown-item" href="semestre3.html">3er. semestre</a><a class="dropdown-item" href="semestre4.html">4to. semestre</a><a class="dropdown-item" href="semestre5.html">5to. semestre</a><a class="dropdown-item" href="semestre6.html">6to. semestre</a><a class="dropdown-item" href="semestre7.html">7mo. semestre</a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1 dropdown"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="mt-5 mx-auto notas" id="semestre-seccion">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">notas del 5to. semestre</h2>
+            <hr class="mb-5 star-dark">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="w-25">Código de Curso</th>
+                            <th style="padding-right: 214px;">Nombre de Curso</th>
+                            <th>Nota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>021</td>
+                            <td>MÉTODOS NUMÉRICOS</td>
+                            <td class="nota">83</td>
+                        </tr>
+                        <tr>
+                            <td>022</td>
+                            <td>PROGRAMACIÓN III</td>
+                            <td class="nota">70</td>
+                        </tr>
+                        <tr>
+                            <td>023</td>
+                            <td>EMPRENDEDORES DE NEGOCIOS</td>
+                            <td class="nota">95</td>
+                        </tr>
+                        <tr>
+                            <td>024</td>
+                            <td>ELECTRÓNICA ANALÓGICA</td>
+                            <td class="nota">97</td>
+                        </tr>
+                        <tr>
+                            <td>025</td>
+                            <td>ESTADÍSTICA II</td>
+                            <td class="nota">85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">contacto</h2>
+            <hr class="mb-5 star-dark">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage">
+                        <div>
+                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label">Nombre</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Correo</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Telefono</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-5 pb-2 form-floating"><textarea class="form-control" id="message" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Mensaje</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div id="success"></div>
+                        <div><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Ubicacion</h4>
+                    <p>Universidad Mariano Galvez <br>de Guatemala, Sede Chinautla</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Redes sociales</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-dribbble fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">Sobre estudiante</h4>
+                    <p class="lead mb-0"><span>Pablo Espinoza es estudiante de Ingenieria en Sistemas de la Universidad Mariano Galvez sede Chinautla</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center text-white py-4 copyright">
+        <div class="container"><small>Copyright ©&nbsp;Tarea 1 Desarrollo Web 2025</small></div>
+    </div>
+    <div class="position-fixed d-lg-none scroll-to-top rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
