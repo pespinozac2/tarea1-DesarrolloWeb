@@ -4,6 +4,41 @@ body{
 .row {
     padding-left: 10px;
 }
-.navbar {
-    background-color: #fbf9f6 !important;
+#navbarSemestre:hover {
+    color: #18bc9c !important;
+}
+
+/* Para pantallas menores a 992px (colapsado móvil) */
+@media (max-width: 991.98px) {
+  #navbarResponsive2 {
+    display: block !important;        /* Fuerza que se muestre al desplegar */
+    /* Aquí puedes ajustar padding, flex, colores, etc. */
+  }
+}
+
+/* Para pantallas de escritorio (>=992px) */
+@media (min-width: 992px) {
+  #navbarResponsive2 {
+    display: none !important;         /* Ocúltalo en PC si quieres replicar dropdown */
+  }
+}
+
+#NavPrincipal {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#NavPrincipal .navbar-brand {
+    color: #fff !important;
+}
+#NavPrincipal .navbar-nav li.nav-item a.nav-link.active {
+    color: #18bc9c;
+}
+
+#NavPrincipal .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+#NavPrincipal .navbar-nav li.nav-item a.nav-link:hover {
+    color: #18bc9c;
 }
