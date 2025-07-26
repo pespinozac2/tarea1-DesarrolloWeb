@@ -8,28 +8,50 @@
     <meta name="description" content="tarea de pagina de notas Pablo Espinoza">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
-    <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">3er. semestre</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="index.html">Inicio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <div class="nav-item dropdown px-lg-3 py-3"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#">Semestre&nbsp;</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="semestre1.html">1er. semestre</a><a class="dropdown-item" href="semestre2.html">2do. semestre</a><a class="dropdown-item" href="semestre3.html">3er. semestre</a><a class="dropdown-item" href="semestre4.html">4to. semestre</a><a class="dropdown-item" href="semestre5.html">5to. semestre</a><a class="dropdown-item" href="semestre6.html">6to. semestre</a><a class="dropdown-item" href="semestre7.html">7mo. semestre</a></div>
-                        </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-secondary text-uppercase" id="NavPrincipal" aria-label="Fourth navbar example">
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">Notas Universitarias</a> 
+            <button
+                class="navbar-toggler bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSemestre"
+                aria-controls="navbarSemestre" aria-expanded="false" aria-label="Toggle navigation"> 
+                <i
+                    class="fa fa-bars"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSemestre">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> 
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1 dropdown"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="#contact">Contacto</a></li>
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="false">Semestre
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="semestre1.html">1er. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre2.html">2do. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre3.html">3er. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre4.html">4to. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre5.html">5to. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre6.html">6to. Semestre</a></li>
+                            <li><a class="dropdown-item" href="semestre7.html">7mo. Semestre</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contact">Contacto</a> </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Main Header -->
     <section class="mt-5 mx-auto notas" id="semestre-seccion">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary">notas del 3er. semestre</h2>
